@@ -4,7 +4,7 @@
 
 ```bash
 # Create dirs
-$ mkdir crdroid ; cd crdroid
+$ mkdir arrowOS-j7y ; cd arrowOS-j7y
 
 # Init repo
 $ repo init -u https://github.com/ArrowOS/android_manifest.git -b arrow-11.0
