@@ -2,24 +2,24 @@
 <manifest>
     <!--
     * target: j7y17lte
-    * rom: crDroid
+    * rom: ArrowOS
     -->
 
     <!-- Remote -->
     <remote fetch="https://github.com/samsungexynos7870" name="samsungexynos7870" />
-	
+
     <!-- Device -->
-    <project name="android_device_samsung_j7y17lte" path="device/samsung/j7y17lte" remote="samsungexynos7870" revision="crdroid" />
-    <project name="android_device_samsung_universal7870-common" path="device/samsung/universal7870-common" remote="samsungexynos7870" revision="crdroid" />
+    <project name="android_device_samsung_j7y17lte" path="device/samsung/j7y17lte" remote="samsungexynos7870" revision="havoc-11" />
+    <project name="android_device_samsung_universal7870-common" path="device/samsung/universal7870-common" remote="samsungexynos7870" revision="arrow-11" />
 
     <!-- Kernel -->
     <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="samsungexynos7870" revision="aosp" />
 
     <!-- Vendor -->
-    <project name="android_vendor_samsung_j7y17lte" path="vendor/samsung/j7y17lte" remote="samsungexynos7870" revision="common" />
-    <project name="android_vendor_samsung_universal7870-common" path="vendor/samsung/universal7870-common" remote="samsungexynos7870" revision="common" />
+    <project name="android_vendor_samsung_j7y17lte" path="vendor/samsung/j7y17lte" remote="samsungexynos7870" revision="havoc-11" />
+    <project name="android_vendor_samsung_universal7870-common" path="vendor/samsung/universal7870-common" remote="samsungexynos7870" revision="havoc-11" />
 
-    <!-- Hardware -->   
-    <project name="android_hardware_samsung" path="hardware/samsung" remote="samsungexynos7870" revision="lineage-17.1" />
-		
+    <!-- Hardware -->
+    <project name="android_hardware_samsung" path="hardware/samsung" remote="samsungexynos7870" revision="arrow-11" />
+
 </manifest>
