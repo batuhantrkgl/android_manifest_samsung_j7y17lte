@@ -2,7 +2,7 @@
 <manifest>
     <!--
     * target: j7y17lte
-    * rom: ArrowOS
+    * rom: PixysOS
     -->
 
     <!-- Remote -->
@@ -10,7 +10,7 @@
     <remote fetch="https://github.com/batuhantrkgl" name="batuhantrkgl" />
 	
     <!-- Device -->
-    <project name="android_device_samsung_j7y17lte" path="device/samsung/j7y17lte" remote="batuhantrkgl" revision="arrow-10" />
+    <project name="android_device_samsung_j7y17lte" path="device/samsung/j7y17lte" remote="batuhantrkgl" revision="pixysos-staging" />
     <project name="android_device_samsung_universal7870-common" path="device/samsung/universal7870-common" remote="samsungexynos7870" revision="aex" />
 
     <!-- Kernel -->
