@@ -1,4 +1,4 @@
-# crDroid
+# PixysOS
 
 ### How to build ###
 
@@ -10,7 +10,7 @@ $ mkdir PixysOS && cd PixysOS
 $ repo init -u https://github.com/PixysOS/manifest -b ten
 
 # Clone my local repo
-$ git clone https://github.com/batuhantrkgl*android_manifest_samsung_j7y17lte.git -b pixysos-staging .repo/local_manifests
+$ git clone https://github.com/batuhantrkgl/android_manifest_samsung_j7y17lte.git -b pixysos-staging .repo/local_manifests
 
 # Sync
 $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc`
